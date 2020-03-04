@@ -12,3 +12,9 @@ node_modules
 
 # Desktop Services Store on macOS
 .DS_Store
+
+# package.json downloaded files
+node_modules
+
+# deploy command generates these files
+dist

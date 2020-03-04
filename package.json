@@ -1,0 +1,37 @@
+{
+  "name": "currency-converter-elm",
+  "version": "1.0.0",
+  "description": "This project is bootstrapped with [Create Elm App](https://github.com/halfzebra/create-elm-app).",
+  "main": "index.js",
+  "directories": {
+    "test": "tests",
+    "deploy": "npm i && npx webpack --mode=production"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.3",
+    "css-loader": "^3.0.0",
+    "elm-css-webpack-loader": "^3.4.0",
+    "elm-hot-loader": "^0.5.4",
+    "elm-webpack-loader": "^6.0.1",
+    "file-loader": "^4.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm i && npx webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriGuilherme/currency-converter-elm.git"
+  },
+  "author": "Yuri Guilherme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuriGuilherme/currency-converter-elm/issues"
+  },
+  "homepage": "https://github.com/YuriGuilherme/currency-converter-elm#readme"
+}
